@@ -2,10 +2,84 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta lang="en">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Temparature Conversion</title>
+    <link rel="stylesheet" href="css\styles.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Website Konversi Suhu - Bryant</h1>
+    </header>
+    <main>
+        <!--Introduction-->
+        <section>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe amet itaque unde, libero, perspiciatis aliquam eaque expedita odio ipsam sunt, exercitationem aperiam voluptatibus accusamus qui in nemo dolore adipisci. Facilis!</p>
+        </section>
+        <!--Form input-->
+        <form class="section-content">
+            <div class="section-item">
+                <label for="konversi-input">Celcius (&deg;C)</label>
+            </div>
+            <div class="section-item">
+                <textarea id="konversi-input"></textarea>
+            </div>
+
+            <!--Form action-->
+            <div class="section-item">
+                <button class="bg-1">Konversi</button>
+                <button class="bg-2">Reset</button>
+                <button class="bg-3">Reverse</button>
+            </div>
+        </form>
+
+        <!--Hasil konversi suhu-->
+        <section>
+            <div>
+                <label for="result-input">Fahrenheit (&deg;F)</label>
+            </div>
+            <div>
+                <textarea id="result-input" readonly></textarea>
+            </div>
+        </section>
+
+        <!--Penjelasan-->
+        <section>
+            <div>
+                <label for="Calculate-detail">Cara kalkulasi</label>
+            </div>
+            <div>
+                <textarea id="Calculate-detail" readonly></textarea>
+            </div>
+        </section>
+
+        <!--Informasi-->
+        <section>
+            <header>
+                <h1>Cara Konversi dari celcius (&deg; C) ke Fahrenheit (&deg; F)</h1>
+            </header>
+            <hr>
+            <!--Content informasi-->
+            <article>
+                <p>Suhu <span class="formula">S</span> dalam derajat Fahrenheit (&deg; F)</p>
+                <!--Formula-->
+                
+                <div class="formula">
+                   S<sub>(&deg; F)</sub> = (S<sub>(&deg; C)</sub> x 9/5) + 32
+                </div>
+                <div>
+                    atau
+                </div>
+                <div class="formula">
+                    S<sub>(&deg; F)</sub> = (S<sub>(&deg; C)</sub> x 1,8) + 32
+                </div>
+            </article>
+        </section>
+
+        <!--JS External-->
+    </main>
+    <footer>
+        <p></p>&copy; 2025 Bryant. All rights reserved.</p>
+    </footer>
 </body>
 </html>
