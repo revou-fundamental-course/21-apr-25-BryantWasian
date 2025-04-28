@@ -1,0 +1,52 @@
+.formula{
+    font-style: italic;
+    font-size: xx-large;
+}
+
+textarea {
+    width: 100%;
+    /*ETC ETC use W3S*/
+}
+
+/*Minim space di web*/
+
+body{
+    padding: 32px;
+    text-align: center;
+    font-family: math;
+}
+
+/*Belum ada spasi di form*/
+
+.section-item{
+    margin-bottom: 8px;
+}
+
+/*Terlalu dempet*/
+.section-content{
+    margin: 32px;
+}
+
+p, div{
+    text-align: justify;
+}
+
+button{
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: antiquewhite;
+    /*BG masing2*/
+}
+
+.bg-1{
+    background-color: aqua;
+}
+
+.bg-2{
+    background-color: chocolate;
+}
+
+.bg-3{
+    background-color: blue;
+}
