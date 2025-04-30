@@ -3,8 +3,8 @@
     font-size: xx-large;
 }
 
-textarea {
-    width: 100%;
+input {
+    width: 25%;
     /*ETC ETC use W3S*/
 }
 
@@ -39,14 +39,14 @@ button{
     /*BG masing2*/
 }
 
-.bg-1{
+#convert{
     background-color: aqua;
 }
 
-.bg-2{
+#reset{
     background-color: chocolate;
 }
 
-.bg-3{
+#reverse{
     background-color: blue;
 }
