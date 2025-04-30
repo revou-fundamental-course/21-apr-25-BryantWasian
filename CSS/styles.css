@@ -4,8 +4,15 @@
 }
 
 input {
-    width: 25%;
+    width: 85%;
+    height: 150px;
     /*ETC ETC use W3S*/
+    border: 1px solid;
+    border-radius: 5px;
+}
+textarea{
+    width: 50%;
+    height: 50px;
 }
 
 /*Minim space di web*/
@@ -29,7 +36,7 @@ body{
 }
 
 p, div{
-    text-align: justify;
+    text-align: center;
 }
 
 button{
