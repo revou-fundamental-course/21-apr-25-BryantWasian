@@ -21,7 +21,7 @@ body{
     padding: 32px;
     text-align: center;
     font-family: math;
-    background-image: linear-gradient(red, blue);
+    background-color: cornsilk;
 }
 
 /*Belum ada spasi di form*/
@@ -52,7 +52,7 @@ button{
 }
 
 #reset{
-    background-color: chocolate;
+    background-color: red;
 }
 
 #reverse{
